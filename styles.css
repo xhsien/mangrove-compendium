@@ -1,10 +1,11 @@
 body{
-    background-image: url('assets/background.jpg');
+    background-image: url('assets/background2.jpg');
     background-size: cover;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-right: 80px;
-    padding-bottom: 80px;
-    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    background-position: center center; 
 }
 
 h1{
@@ -15,18 +16,40 @@ h1{
     text-align: center;
 }
 
+form{
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-align: center;    
+}
+
+label{
+    cursor: pointer;
+}
+
 .col{
     padding: 15px;
 }
 
 img{
-    height: 128px;
-    width: 128px;
+    height: 150px;
+    width: 150px;
     border-style: ridge;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    opacity: 0.5;
 }
+
+.solved{
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+}
+
 
 /* The Modal (background) */
 .modal {
@@ -66,6 +89,8 @@ img{
 
 .modal-body {
     padding: 2px 16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 /* Add Animation */
@@ -93,104 +118,3 @@ img{
     text-decoration: none;
     cursor: pointer;
 }
-
-
-
-
-/* h1{
-    color: #fff;
-    font-size: 64px;
-    letter-spacing: 2px;
-    margin-top: 80px;
-    text-align: center;
-}
-
-.content{
-    background: #fff;
-    max-width: 960px;
-    margin: 30px auto;
-    padding:  20px 30px;
-    border-radius: 10px 120px 10px 10px;
-    box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
-}
-
-ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-li{
-    padding: 20px;
-    background: #f6f6f6;
-    font-size: 20px;
-    color: #555;
-    position: relative;
-    border-bottom: 1px solid #e6e6e6;
-    height: 46px;
-}
-
-li:nth-child(even){
-    padding: 20px;
-    background: #f2f2f2;
-}
-
-li span{
-    display: block;
-}
-
-li span:nth-child(2){
-    font-size: 16px;
-    margin-top: 6px;
-    color: #999;
-}
-
-li div{
-    position: absolute;
-    top: 0;
-    right: 0px;
-    background: rgba(255,255,255,0.6);
-    width: 40px;
-    text-align: center;
-    padding: 10px 0;
-    font-weight:  bold;
-    cursor:  pointer;
-}
-
-form input{
-    float: left;
-    width: 38%;
-    margin: 0;
-    border: 0;
-    border-bottom: 1px solid #eee;
-    margin: 0 1%;
-    padding: 10px;
-    display: block;
-    box-sizing: border-box;
-    font-size: 18px;
-}
-
-form input:focus{
-    outline: none;
-    border-bottom: 3px solid #88236f;
-    padding-bottom: 8px;
-    transition: all ease 0.2s;
-}
-
-form:after{
-    content: '';
-    clear: both;
-    display: block;
-}
-
-button{
-    border: 0;
-    background: #fff;
-    border-radius: 10px;
-    padding: 13px;
-    width: 14%;
-    box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
-    font-weight: bold;
-    font-family: ubuntu;
-    letter-spacing: 1px;
-    color: #999;
-} */
