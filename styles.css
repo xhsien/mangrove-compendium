@@ -1,5 +1,5 @@
 body{
-    background-image: url('assets/background2.jpg');
+    background-image: url('assets/background.jpg');
     background-size: cover;
     padding-top: 80px;
     padding-right: 80px;
@@ -83,7 +83,7 @@ img{
 
 .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #2f4d71;
     color: white;
 }
 
